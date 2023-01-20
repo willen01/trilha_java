@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a4cea00-b378-484c-bb67-460742dbd177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/_1POO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_5POO/_1POO/src/_01Estrutura_basicaOO/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/_01Criacao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/out/production/_01Criacao/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/_01Criacao/out/production/_01Criacao/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/out/production/_01Criacao/exercicios/OperacoesMatematicas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01Criacao/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/src/exercicios/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01Criacao/src/exercicios/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/src/exercicios/Emprestimo.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01Criacao/src/exercicios/Emprestimo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01Criacao/src/exercicios/Mensagem.java" beforeDir="false" afterPath="$PROJECT_DIR$/_01Criacao/src/exercicios/Mensagem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02Sobrecarga/_02Sobrecarga.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02Sobrecarga/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02Sobrecarga/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_02Sobrecarga/src/Quadrilatero.java" beforeDir="false" afterPath="$PROJECT_DIR$/_02Sobrecarga/src/Quadrilatero.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2KbFJpak3aSDFtwUw9P7AYKOa9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a4cea00-b378-484c-bb67-460742dbd177" name="Changes" comment="" />
+      <created>1674235307438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1674235307438</updated>
+    </task>
+    <servers />
+  </component>
+</project>
