@@ -2,6 +2,7 @@ package ExemploLista;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /*
@@ -36,10 +37,22 @@ public class _02Ordenando_elementos {
         Collections.sort(meuGatos);
         System.out.println(meuGatos);
 
+        System.out.println("Ordem idade");
+        Collections.sort(meuGatos, new ComparatorIdade()); //O método sort só é possivel com comparator e comparable
+        System.out.println(meuGatos);
+
+
+        System.out.println("--Ordem de cor --");
+        meuGatos.sort(new ComparatorCor());
+        System.out.println(meuGatos);
+
+        System.out.println("-- Ordem de nome/cor/idade --");
+        meuGatos.sort(new CompratorNomeCorIdade());
+        System.out.println(meuGatos);
     }
 }
 
-// para trabalhar com a ordem natural usamos a interface comparable
+// Comparable - comparação de elementos na ordem natural
 class Gato implements Comparable<Gato> {
     private String nome;
     private Integer idade;
@@ -55,11 +68,9 @@ class Gato implements Comparable<Gato> {
     public String getNome() {
         return nome;
     }
-
     public Integer getIdade() {
         return idade;
     }
-
     public String getCor() {
         return cor;
     }
@@ -81,5 +92,36 @@ class Gato implements Comparable<Gato> {
 //        0 = se for igual ao item comparado
 //        1 = se for maior que o item comparado
         return this.getNome().compareToIgnoreCase(gato.getNome());
+    }
+}
+
+// comparator - comparação personalizada
+class ComparatorIdade implements Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        return Integer.compare(g1.getIdade(), g2.getIdade());
+    } //ordena de acordo com a idade
+}
+
+class ComparatorCor implements Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        return g1.getCor().compareToIgnoreCase(g2.getCor());
+    }
+}
+
+class CompratorNomeCorIdade implements  Comparator<Gato> {
+
+    @Override
+    public int compare(Gato g1, Gato g2) {
+        int nome = g1.getNome().compareToIgnoreCase(g2.getNome());
+        if(nome != 0) return nome;
+
+        int cor = g1.getCor().compareToIgnoreCase(g2.getCor());
+        if(cor != 0 ) return cor;
+
+        return Integer.compare(g1.getIdade(), g2.getIdade());
     }
 }
