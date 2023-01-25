@@ -2,7 +2,7 @@ package ExemploLista;
 
 import java.util.*;
 
-public class ExemploList {
+public class _01ExemploList {
     public static void main(String[] args) {
 //        List notas = new ArrayList(); Antes do java 8
 //        List<Double> notas = new ArrayList<>(); <> --> generics new ArrayList<> --> Diamont Operator
