@@ -22,6 +22,8 @@ public class _02Ordenando_elementos {
             add(new Gato("Alberto", 20, "branco"));
         }};
 
+//        o método printl() possui um método chamado toString, esse método está sendo sobrecarregado na classe
+//        Gato para exibir uma string com os valores da lista. Caso a sobrecarga não aconteça o que será exibido será seu endereço de memória
         System.out.println("-- Ordem de inserção --");
         System.out.println(meuGatos);
 
